@@ -1,10 +1,9 @@
 import styled from 'styled-components/native'
 
-export const StyledView = styled.View`
-    background-color: red;
+export const StyledView = styled.SafeAreaView`
     flex: 1;
 `;
 
-export const StyledText = styled.Text`
-    
+export const ScrollView = styled.ScrollView`
+    flex: 1;
 `;
